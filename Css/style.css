@@ -98,3 +98,24 @@ footer .social-links a {
  border-radius: 50%;
 
 }
+
+.about-me h1 {
+  font-size: 50px;
+
+}
+
+.about-me h3 {
+  font-size: 20px;
+  line-height: 2;
+  font-weight: lighter;
+}
+
+.about-me-section {
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 80%;
+  height: auto;
+}
