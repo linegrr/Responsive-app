@@ -19,9 +19,7 @@ h6 {
   font-weight: bold;
 }
 
-h1 {
-  font-size: 90px;
-}
+
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -31,12 +29,14 @@ p {
 .hero {
   background: #f9f7fe;
   text-align: center;
-  padding: 160px 20px;
+  padding: 150px 20px;
 }
-
+.hero h1 {
+  font-size: 70px;
+}
 .hero p {
   font-family: "Poppins", sans-serif;
-  font-size: 36;
+  font-size: 30;
   font-weight: bold;
   margin: 0;
   color: #272142;
@@ -52,9 +52,10 @@ p {
   color: white;
   background: var(--branding-color);
   border-radius: 4px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 27px;
   padding: 12px 20px;
+  font-family: var(--heading-font-family);
 }
 
 .btn-branding-outline {
@@ -85,7 +86,7 @@ p {
 }
 
 .footer {
-  padding: 100px;
+  padding: 20px 5px;
   background: var(--secondary-color);
   text-align: center;
 }
