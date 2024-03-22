@@ -89,7 +89,19 @@ p {
     padding: 0;
     text-align: center;
   }
+  .work h1 {
+    font-size: 25px;
+    
+  }
+
+  .work-container .row h2 {
+    font-size: 20px;
+  }
+  .work-container .row p {
+    font-size: 10px;
+  }
 }
+
 
 .footer {
   padding: 20px 5px;
@@ -125,4 +137,8 @@ img {
   display: block;
   max-width: 80%;
   height: auto;
+}
+.logo {
+  display: block;
+  max-width: 90px;
 }
