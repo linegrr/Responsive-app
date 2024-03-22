@@ -5,11 +5,8 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-
-
 body {
   font-family: var(--default-font-family);
-  
 }
 h1,
 h2,
@@ -22,7 +19,6 @@ h6 {
   font-weight: bold;
 }
 
-
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -33,7 +29,6 @@ p {
   background: #f9f7fe;
   text-align: center;
   padding: 150px 20px;
-  
 }
 .hero h1 {
   font-size: 70px;
@@ -89,7 +84,6 @@ p {
   }
   .work h1 {
     font-size: 25px;
-    
   }
 
   .work-container .row h2 {
@@ -98,14 +92,37 @@ p {
   .work-container .row p {
     font-size: 10px;
   }
-}
 
+  .hero h1 {
+    font-size: 30px;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .container .project-description h2 {
+    font-size: 29px;
+  }
+
+  .about-me-section .row .about-me h1 {
+    font-size: 30px;
+  }
+  .about-me-section .row .about-me p {
+    font-size: 15px;
+  }
+}
 
 .footer {
   padding: 20px 5px;
   background: var(--secondary-color);
   text-align: center;
+  margin-top: 290px;
 }
+
+#footer-work {
+  margin-top: 290px;;
+}
+
 
 footer .social-links a {
   margin: 0 10px;
@@ -127,16 +144,20 @@ footer .social-links a {
 
 .about-me-section {
   text-align: center;
-  margin: 30px;
-  
 }
 
-img {
-  display: block;
-  max-width: 80%;
-  height: auto;
-}
+
+
 .logo {
   display: block;
   max-width: 90px;
+}
+
+.work-container .row {
+  display: flex;
+  margin-left: 0;
+}
+
+.contact {
+  margin-bottom: 650px;
 }
